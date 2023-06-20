@@ -1,0 +1,21 @@
+#services {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #f8f8ff;
+}
+
+#services .container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 1600px;
+  height: 75vh;
+  margin: 0 auto;
+  gap: 30px;
+  font-size: 1.3rem;
+}
+
+.title {
+  margin-top: 6vh;
+}

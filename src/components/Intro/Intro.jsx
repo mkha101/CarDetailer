@@ -13,7 +13,7 @@ function Intro() {
       <div className="intro-container">
         <div className="hero-text">
           <h1>Professional Detailing at an Affordable Price</h1>
-          <a href="/">
+          <a href="#services">
             <button class="button-24" onclick="id" role="button">
               Our Services
             </button>
