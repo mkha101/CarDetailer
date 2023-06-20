@@ -2,60 +2,74 @@
   margin: 0;
   padding: 0;
 }
+
+li {
+  list-style: none;
+}
+
+a {
+  color: black;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
-.logo h1 {
-  background-image: linear-gradient(
-    -90deg,
-    #29292a 0%,
-    #a6a0ac 29%,
-    #443c3f 67%,
-    #0b0b0b 100%
-  );
-  background-size: auto auto;
-  background-clip: border-box;
-  background-size: 200% auto;
-  color: #fff;
-  background-clip: text;
-  text-fill-color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: textclip 3s linear infinite;
-  font-size: 1.5rem;
-  cursor: pointer;
-}
-@keyframes textclip {
-  to {
-    background-position: 200% center;
-  }
+.header {
+  display: flex;
+  position: sticky;
+  height: 7vh;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0 auto;
+  background-color: #f8f8ff;
 }
 
-.header {
+.header .container {
   height: 100%;
-  max-width: 1600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
   width: 100%;
   margin: 0 auto;
 }
 
-@media screen and (max-width: 768px) {
-  .nav_menu {
-    position: fixed;
-    top: 3rem;
-    right: -100%;
-    width: 80%;
-    height: 100%;
-    padding: 2rem;
-    background-color: var(--second-color);
-    transition: 0.5s;
-  }
-}
-
 .logo {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  margin-top: 4vh;
-  margin-left: 5%;
+}
+
+.logo img {
+}
+
+.logo h1 a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 15px;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 70px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
 }

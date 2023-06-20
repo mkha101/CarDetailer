@@ -17,9 +17,13 @@
     "@types/react": "^18.2.6",
     "@types/react-dom": "^18.2.4",
     "astro": "^2.4.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
     "react": "^18.2.0",
     "react-datepicker": "^4.12.0",
     "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
     "react-scroll": "^1.8.9",
     "three": "^0.121.1",
     "vanta": "^0.5.24"
