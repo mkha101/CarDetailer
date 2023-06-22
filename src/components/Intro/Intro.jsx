@@ -9,7 +9,7 @@ import background from "../images/wash-bg.jpg";
 
 function Intro() {
   return (
-    <section id="intro" style={{ backgroundImage: `url(${background})` }}>
+    <section id="intro">
       <div className="intro-container">
         <div className="hero-text">
           <h1>Professional Detailing at an Affordable Price</h1>
