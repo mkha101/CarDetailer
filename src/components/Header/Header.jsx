@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.css";
 import Logo from "../images/logo.png";
+import { slide as Menu } from "react-burger-menu";
 
 function Header() {
   return (

@@ -3,3 +3,7 @@
 *::after {
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
+
+body {
+  min-height: 100%;
+}

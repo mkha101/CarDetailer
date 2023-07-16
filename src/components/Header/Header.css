@@ -18,7 +18,7 @@ html {
 .header {
   display: flex;
   position: sticky;
-  height: 7vh;
+  height: 4rem;
   top: 0;
   bottom: 0;
   left: 0;
@@ -48,6 +48,12 @@ html {
   text-decoration: none;
   font-size: 1.5rem;
   cursor: pointer;
+}
+
+@media (max-width: 760px) {
+  .navbar {
+    display: none;
+  }
 }
 
 .navbar a {

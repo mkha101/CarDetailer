@@ -12,17 +12,17 @@ function Intro() {
     <section id="intro">
       <div className="intro-container">
         <div className="hero-text">
-          <h1>Professional Detailing at an Affordable Price</h1>
+          <h1>
+            Professional Detailing at <br />
+            an Affordable Price
+          </h1>
           <a href="#services">
             <button class="button-24" onclick="id" role="button">
               Our Services
             </button>
           </a>
         </div>
-        <div className="heros">
-          <img src={Hero} className="under" alt="hero-img" />
-          <img src={Hero2} className="over" alt="hero2-img" />
-        </div>
+        <div className="heros"></div>
       </div>
     </section>
   );
